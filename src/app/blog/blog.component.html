@@ -1,1 +1,117 @@
-<p>blog works!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+
+
+</head>
+
+<body>
+  <lsml-menu></lsml-menu>
+  <section class="principal">
+    <h1>To learn :</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">How to update repository</h5>
+              <p class="card-text">4 simple steps to update your repository on GitHUB.</p>
+              <a href="#update" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Como fazer Deploy do Angular no GitHub</h5>
+              <p class="card-text">Neste tutorial você vai aprender como fazer deploy de projeto Angular no GitHub.</p>
+              <a href="#deploy" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p align="center">This is <b>our space</b> to share important teachings and tips for our DEVS life. </p>
+</section>
+<hr>
+<section class="update">
+    <h1> 4 passos simples para atualizar seu repositório no GitHUB:</h1>
+    <p>  Você poderá utilizar o terminal do seu editor de preferência, Git bush instalado no seu dispositivo ou atualizar o repositório diretamente no site do GitHub.</p>
+    <h3>1	Passo: Git init</h3>
+    <h3>2	Passo: Git add </h3>
+    <h3>3	Passo: Git commit</h3>
+      <p>Git commit -m “nome da atualização”</p>
+    <h3>4	Passo: Git push</h3>
+      <p>git push origin main</p>
+    <a href="#blog-principal" class="btn btn-primary">Go back</a>
+
+</section>
+<hr>
+<section class="deploy">
+  <h1>Como fazer Deploy do Angular no GitHub :</h1>
+  <p> Neste tutorial você vai aprender como fazer deploy de projeto Angular no GitHub. </p>
+  <p>**Este é o que chamamos de Deploy manual</p>
+  <h2>1 Passo: Rodar um comando de build</h2>
+  <h3> <b>	• Escolher um projeto Angular para fazer o submit no github </b></h3>
+  <p>	- Você pode criar um novo projeto ou escolher um repositório que já esteja disponível no seu repositório do github.</p>
+  <h3>  • <b>Abra seu editor de preferência e inicie o terminal. </b></h3>
+  <p>** 	No meu caso, irei utilizar o VS Code.</p>
+  <h3>  <b>•	Iniciar o build do seu projeto. </b></h3>
+  <img id="perfil" class="img-responsive" src="assets/img/build do projeto1.png">
+  <p>** Vai gerar uma pasta chamada dist.</p>
+  <h2>2 passo: Gerar arquivo 404.html</h2>
+  <h3> <b> •	Abra o arquivo package.json </b></h3>
+  <p> Vamos criar um script para facilitar o comando</p>
+  <img id="perfil" class="img-responsive" src="assets/img/deploy do projeto3.png">
+  <h3> <b> • De volta ao terminal do projeto vamos rodar o comando : npm run deploy:ghdocs </b></h3>
+  <p>** O terminal vai gerar uma pasta docs com o nosso index.html</p>
+  <h3> <b> • Copia e cola seu arquivo index html (dentro da pasta dist) e renomeie o nome para 404.html </b></h3>
+  <img id="perfil" class="img-responsive" src="assets/img/404 do projeto2.png">
+  <h2>3 Passo: Fazer commit</h2>
+  <h3> <b> • Agora vamos fazer um commit de todas essas atualizações e um push para o repositório.</b></h3>
+  <p>** Commit -m para enviar uma mensagem</p>
+  <img id="perfil" class="img-responsive" src="assets/img/commit do projto4.png">
+
+
+  <h2>4 Passo: Fazer um push</h2>
+  <h3> <b> • Vamos “joga” o projeto para o servidor. </b></h3>
+
+  <p align="center"><b>Git push || git push origin master</b></p>
+
+  <h2>5 Passo: Settings</h2>
+  <h3> <b> • Agora já no repositório do projeto no GitHub, vamos para settings </b></h3>
+  <p>	Git hub pags</p>
+  <img id="perfil" class="img-responsive" src="assets/img/ghpages do projto5.png">
+  <p>** Selecione Branch: Master  /docs  Save</p>
+  <img id="perfil" class="img-responsive" src="assets/img/pag do projeto6.png">
+  <p>** Agora vai aparecer uma mensagem a dizer que seu site esta pronto e disponível nesse endereço. </p>
+
+
+  <a href="#blog-principal" class="btn btn-primary">Go back</a>
+
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <p><b>LAISA LAMIR</b></p>
+      </div>
+      <div class="col-4">
+        <p><b>  WEB DEVELOPMENT</b></p>
+      </div>
+      <div class="col-4">
+        <p><b> 2021</b></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

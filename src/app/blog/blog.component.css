@@ -1,0 +1,31 @@
+body{
+  font-family:cursive;
+  margin-left: 5px;
+  background-color: white;
+
+}
+
+#perfil{
+  margin-top: 50px;
+  width:30%;
+
+}
+.principal{
+  padding: 60px 0px 60px 10px;
+}
+
+.update{
+  text-align: center;
+  padding: 60px 0px 60px 10px;
+}
+.deploy{
+  text-align: center;
+  padding: 60px 0px 60px 10px;
+
+}
+footer{
+  background-color: rgb(233, 136, 25);
+  padding-top: 10PX;
+  text-align: center;
+  text-shadow:rgb(218, 213, 208) -2px -2px
+}
