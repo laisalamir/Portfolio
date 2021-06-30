@@ -15,17 +15,26 @@ body{
 }
 
 .update{
+
   text-align: center;
   padding: 60px 0px 60px 10px;
 }
+
+
 .deploy{
   text-align: center;
   padding: 60px 0px 60px 10px;
 
 }
+
+
 footer{
   background-color: rgb(233, 136, 25);
   padding-top: 10PX;
   text-align: center;
-  text-shadow:rgb(218, 213, 208) -2px -2px
+  text-shadow:rgb(218, 213, 208) -2px -2px;
+}
+
+.margin{
+  margin: 15px 0px 15px 0px;
 }
